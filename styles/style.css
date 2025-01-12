@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c79a97;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #c79a97;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 20px;
+}
+.main-content h1 {
+    font-size: 80px;
+    margin: 0;
+}
+.main-content p {
+    font-size: 20px;
+    margin-top: 10px;
+}
